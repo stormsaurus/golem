@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="golem.user.root.givenName">Root</entry>
+<entry key="golem.user.root.surname">Root</entry>
+<entry key="golem.user.root.email">root@localhost</entry>
+<entry key="golem.user.root.userName">root</entry>
+<entry key="golem.user.root.password">password</entry>
+<entry key="golem.user.verification.ticket.duration">259200000</entry> 	<!-- duration in ms -->
+<entry key="golem.user.session.duration">1800000</entry> 					<!-- duration in ms -->
+<entry key="golem.user.session.lastSeen.cacheSize">1000</entry>
+</properties>

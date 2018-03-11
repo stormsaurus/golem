@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.james</groupId>
+  <artifactId>golem</artifactId>
+  <packaging>jar</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>golem</name>
+  <description>Golem is a java library for implementing user logins. It manages login, logout, registration, email authentication, and session management.</description>
+  <url>http://james.io/</url>
+  <developers>
+  	<developer>
+  		<id>james</id>
+  		<name>James Teer</name>
+  		<url>james.io</url>
+  		<timezone>-8</timezone>
+  	</developer>
+  </developers>
+  <organization>
+  	<name>James</name>
+  	<url>http://james.io/</url>
+  </organization>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+    	<groupId>commons-lang</groupId>
+    	<artifactId>commons-lang</artifactId>
+    	<version>2.4</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.testng</groupId>
+    	<artifactId>testng</artifactId>
+    	<version>5.8</version>
+    	<classifier>jdk15</classifier>
+    	<scope>test</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.apache.openjpa</groupId>
+    	<artifactId>openjpa</artifactId>
+    	<version>1.2.0</version>
+    </dependency>
+  </dependencies>
+</project>
