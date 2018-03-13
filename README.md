@@ -8,6 +8,8 @@ See LICENSE.md
 
 Library for user authentication and registration.  It manages login, logout, registration, email authentication, and session management.
 
+More details [here](http://james.io/#/projects) .
+
 
 ## Notes
 
